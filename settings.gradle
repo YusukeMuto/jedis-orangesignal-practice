@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'jedis-orangesignal-samle'
+rootProject.name = 'jedis-orangesignal-practice'
