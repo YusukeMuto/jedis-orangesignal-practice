@@ -34,24 +34,35 @@ $ redis-server
 #### 利用したオープンデータ
 
 横浜市西区「観光スポット」のオープンデータ
+
 http://www.city.yokohama.lg.jp/nishi/opendata/nishisightseeing.csv
 
 (フォーマットの微調整を行っていない関係で、一部データを削除して利用している。)
 
 
 #### OrangeSignal csv
+
 http://orangesignal.osdn.jp/csv/userguide.html
+
 http://orangesignal.osdn.jp/csv/api-release/index.html
 
 
 #### Redis
+
 https://github.com/antirez/redis
+
 http://redis-documentasion-japanese.readthedocs.io/ja/latest/topics/data-types-intro.html
 
 #### Jedis
+
 Jedis
+
 https://github.com/xetorthio/jedis
+
 JedisのAPI
+
 http://tool.oschina.net/uploads/apidocs/jedis-2.1.0/redis/clients/jedis/Jedis.html
+
 SortedMap に関して
+
 http://stackoverflow.com/questions/23056655/is-order-preserved-in-set-when-recovering-sorted-sets-using-jedis
