@@ -45,10 +45,6 @@ public class ResearchNearSpots {
 			CsvEntityListHandler<NishiSightseeing> csvHandler = new CsvEntityListHandler<>(NishiSightseeing.class);
 			List<NishiSightseeing> nishiSsList = Csv.load(inputCsvFile, "UTF-8", config, csvHandler);
 
-			/**
-			 * Jedis jedis = new Jedis("zest.comp.ae.keio.ac.jp");
-			 * jedis.auth("ap2016"); サーバーにうまく接続できなかったので、localhost:6379 で実行しました。
-			 */
 			Jedis jedis = new Jedis("localhost", 6379);
 
 			/**
